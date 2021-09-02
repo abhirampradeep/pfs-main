@@ -2018,8 +2018,8 @@ button.lastpage-button:hover
 img.logo-image-start
 {
   width: 150px;
-  height: 80px;
-  float: left;
+  height: 70px;
+  /* float: left; */
 }
 @media screen and (max-width:700px) 
 {
