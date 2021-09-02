@@ -2014,12 +2014,12 @@ button.lastpage-button:hover
 }  
 }
 
-
+/* 
 img.logo-image-start
 {
   width: 150px;
   height: 70px;
-  /* float: left; */
+  float: left;
 }
 @media screen and (max-width:700px) 
 {
@@ -2027,7 +2027,7 @@ img.logo-image-start
 {
   width: 160px;
   height: 60xpx;
-  /* float: left; */
+  float: left;
 }
   
-}
+} */
