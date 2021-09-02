@@ -187,6 +187,7 @@ html,
 body {
   background: #fff;
   font-family: "Roboto", sans-serif;
+  margin: 0;
 }
 
 ::selection {
@@ -512,7 +513,7 @@ header-area .main-nav .nav .nav-left li a {
   height: 40px;
   text-indent: -9999em;
   z-index: 99;
-  right: 40px;
+  right: 10px;
   display: none;
 }
 
@@ -828,9 +829,7 @@ TRY IT ... with or without CENTER CENTER
 }
 
 @media (max-width: 765px) {
-  .welcome-area {
-    margin-bottom: 100px;
-  }
+ 
   .welcome-area .header-text {
     top: 55% !important;
     transform: perspective(1px) translateY(-50%) !important;
@@ -840,7 +839,7 @@ TRY IT ... with or without CENTER CENTER
     display: none;
   }
   .welcome-area .header-text h1 {
-    font-weight: 600;
+    font-weight: 400;
     font-size: 20px !important;
     line-height: 26px !important;
     margin-bottom: 20px !important;
@@ -1652,6 +1651,16 @@ h2.fifthpage-text{
   padding: 10px;
 }
 
+@media screen and (max-width:500px) {
+  h2.fifthpage-text{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 350;
+    color: white;
+    padding: 13px;
+  }
+}
+
 
 
 div.item-fifth
@@ -1660,7 +1669,7 @@ div.item-fifth
     display: inline-block;
     margin-top: 200px;
     /* margin-bottom: 250px; */
-    /* display: table;  */
+    display: table; 
     color: white;
     text-align: center;
     overflow-x: hidden;
@@ -1754,9 +1763,10 @@ div.fifthpage-item{
   }
   
   .footer__addr {
-    margin-right: 1.25em;
-    margin-bottom: 2em;
+    /* margin-right: 1.25em;
+    margin-bottom: 2em; */
     text-align: center;
+    margin: 1.5em;
   }
   
   .footer__logo {
@@ -1893,6 +1903,18 @@ h2.lastpage-text
     padding:0  2em;
     margin: 2em;
     color: white;
+    /* font-size: 20px; */
+}
+
+@media screen and (max-width:600px) {
+  
+  h2.lastpage-text
+{
+    padding:0  2em;
+    margin: 2em;
+    color: white;
+    font-size: 19px;
+}
 }
 
 button.lastpage-button
@@ -1917,6 +1939,7 @@ button.lastpage-button
 button.lastpage-button:hover
 {
   background-color: #20b344;
+  border-radius: 12px;
 }
 
 
