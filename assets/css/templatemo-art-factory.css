@@ -910,7 +910,7 @@ about
   letter-spacing: 0.5px;
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:600px) {
   #about h5,
 #about2 h5 {
   font-size: 24px;
@@ -1518,7 +1518,7 @@ margin-bottom: 25px;
 letter-spacing: 0.5px;
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:600px) {
 
 .left-heading-forthpage{
   font-size: 24px;
